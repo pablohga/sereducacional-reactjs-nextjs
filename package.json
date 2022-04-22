@@ -1,0 +1,28 @@
+{
+  "name": "sereducacional-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11.8.1",
+    "axios": "^0.26.1",
+    "framer-motion": "^5",
+    "mongoose": "^6.3.0",
+    "mongose": "^0.0.2-security",
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-hook-form": "^7.30.0"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5"
+  }
+}
