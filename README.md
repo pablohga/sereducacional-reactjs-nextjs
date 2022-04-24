@@ -12,3 +12,9 @@ depois
 
 yarn dev
 
+Para acessar o sistema, insira os dados:
+
+email: admin@admin.com
+senha: admin123
+
+
