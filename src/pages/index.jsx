@@ -38,7 +38,6 @@ export default function Home() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [clients, setClients] = useState([]);
-  const [isFormOpen, setIsFormOpen] = useState(false);
   const [errors, setErrors] = useState({
     name: null,
     email: null,
@@ -111,6 +110,12 @@ export default function Home() {
       setClients(data.data);
     });
   }, []);
+  /* 
+  useEffect(() => {
+    api.get('/clients').then(({ data }) => {
+      console.log(data.data);
+    });
+  }, []); */
 
   return (
     <Box>

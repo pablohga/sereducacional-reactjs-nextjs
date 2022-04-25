@@ -1,4 +1,5 @@
 {
+  "proxy": "backend localhost i.e., https://localhost:3000",
   "name": "sereducacional-nextjs",
   "version": "0.1.0",
   "private": true,
