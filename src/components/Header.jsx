@@ -19,7 +19,6 @@ const Header = () => {
       alignItems="center"
     >
       {' '}
-      <a href="/dashboard">dashboard</a>
       <Flex alig="center" mr={5}>
         <Heading as="h1" size="lg" letterSpacing={'lighter'}>
           Cadastro Clientes
