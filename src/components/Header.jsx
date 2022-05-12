@@ -21,7 +21,7 @@ const Header = () => {
       {' '}
       <Flex alig="center" mr={5}>
         <Heading as="h1" size="lg" letterSpacing={'lighter'}>
-          Cadastro Clientes
+          Cadastro de Clientes
         </Heading>
       </Flex>
       <Flex
